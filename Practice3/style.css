@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(192, 240, 240);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+h1{
+    color: green;
+}
+h2{
+    color: rgb(45, 201, 40);
+}
+.card{
+    background: white;
+    height: auto;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 3px 3px 3px lightblue;
+    flex-direction: column;
+}
+
+.Name{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    align-items: center;
+}
+
+.input{
+    width: 50%;
+    border-radius: 5px;
+    height: 5vh;
+}
+label{
+    align-items: start;
+}
